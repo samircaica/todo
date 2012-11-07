@@ -9,7 +9,8 @@ pasturrin TODO example
 
 4.- Edit index.php, BASE_URL with your site url and $cfg->set_default_connection('development') with your environment settings
 
-5.- Create a controller class with the value set into config/environments/development.php for example $default = array("todo", "index", ""):
+5.- Create a controller class with the value set into config/environments/development.php 
+for example $default = array("todo", "index", ""):
 
 class TodoController  extends AutorizationController {
 
